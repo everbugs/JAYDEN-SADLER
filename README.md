@@ -28,3 +28,4 @@ Enter 1st food name: Rice<br/>
 Enter 2nd food name: Dal<br/>
 30<br/>
 Total price of Rice and Dal is 50<br/>
+Total price of Rice and Dal is 50<br/>
