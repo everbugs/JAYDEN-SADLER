@@ -55,3 +55,16 @@
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.linkLabel1.Location = new System.Drawing.Point(276, 172);
             this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(170, 25);
+            this.linkLabel1.TabIndex = 5;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Forgot Password?";
+            this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // username
+            // 
+            this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username.Location = new System.Drawing.Point(187, 69);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(259, 30);
+            this.username.TabIndex = 1;
