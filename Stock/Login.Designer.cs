@@ -68,3 +68,23 @@
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(259, 30);
             this.username.TabIndex = 1;
+            this.username.Text = "admin";
+            // 
+            // password
+            // 
+            this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password.Location = new System.Drawing.Point(187, 128);
+            this.password.Name = "password";
+            this.password.PasswordChar = '*';
+            this.password.Size = new System.Drawing.Size(259, 30);
+            this.password.TabIndex = 2;
+            this.password.Text = "admin@123";
+            // 
+            // login_btn
+            // 
+            this.login_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.login_btn.Location = new System.Drawing.Point(334, 210);
+            this.login_btn.Name = "login_btn";
+            this.login_btn.Size = new System.Drawing.Size(112, 40);
+            this.login_btn.TabIndex = 3;
+            this.login_btn.Text = "Login";
