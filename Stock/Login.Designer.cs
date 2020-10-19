@@ -88,3 +88,15 @@
             this.login_btn.Size = new System.Drawing.Size(112, 40);
             this.login_btn.TabIndex = 3;
             this.login_btn.Text = "Login";
+            this.login_btn.UseVisualStyleBackColor = true;
+            this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
+            // 
+            // username_lable
+            // 
+            this.username_lable.AutoSize = true;
+            this.username_lable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.username_lable.Location = new System.Drawing.Point(53, 74);
+            this.username_lable.Name = "username_lable";
+            this.username_lable.Size = new System.Drawing.Size(108, 25);
+            this.username_lable.TabIndex = 6;
+            this.username_lable.Text = "Username:";
