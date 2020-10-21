@@ -130,3 +130,15 @@
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button clear_btn;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.TextBox username;
+        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.Button login_btn;
+        private System.Windows.Forms.Label username_lable;
+        private System.Windows.Forms.Label password_lable;
