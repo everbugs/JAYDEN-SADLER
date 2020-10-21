@@ -100,3 +100,15 @@
             this.username_lable.Size = new System.Drawing.Size(108, 25);
             this.username_lable.TabIndex = 6;
             this.username_lable.Text = "Username:";
+            // 
+            // password_lable
+            // 
+            this.password_lable.AutoSize = true;
+            this.password_lable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.password_lable.Location = new System.Drawing.Point(53, 131);
+            this.password_lable.Name = "password_lable";
+            this.password_lable.Size = new System.Drawing.Size(104, 25);
+            this.password_lable.TabIndex = 7;
+            this.password_lable.Text = "Password:";
+            // 
+            // Login
