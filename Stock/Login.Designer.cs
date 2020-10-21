@@ -112,3 +112,21 @@
             this.password_lable.Text = "Password:";
             // 
             // Login
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.ClientSize = new System.Drawing.Size(511, 318);
+            this.Controls.Add(this.password_lable);
+            this.Controls.Add(this.username_lable);
+            this.Controls.Add(this.login_btn);
+            this.Controls.Add(this.password);
+            this.Controls.Add(this.username);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.clear_btn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Login";
+            this.ResumeLayout(false);
+            this.PerformLayout();
