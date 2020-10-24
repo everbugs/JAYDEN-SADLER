@@ -142,3 +142,5 @@
         private System.Windows.Forms.Button login_btn;
         private System.Windows.Forms.Label username_lable;
         private System.Windows.Forms.Label password_lable;
+    }
+}
