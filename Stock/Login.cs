@@ -38,3 +38,13 @@ namespace Stock
             {
                 this.Hide();
                 StockMain main = new StockMain();
+                main.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid login details", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                clear_btn_Click(sender, e);
+            }
+        }
+    }
+}
