@@ -7,4 +7,4 @@ using System.Threading.Tasks;
 
 namespace Stock
 {
-   
+    public static c
