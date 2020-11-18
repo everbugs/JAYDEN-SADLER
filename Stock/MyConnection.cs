@@ -7,4 +7,6 @@ using System.Threading.Tasks;
 
 namespace Stock
 {
-    public static class MyConnectio
+    public static class MyConnection
+    {
+        p
