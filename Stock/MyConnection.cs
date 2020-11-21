@@ -9,4 +9,4 @@ namespace Stock
 {
     public static class MyConnection
     {
-        public stat
+        public static SqlConnectio
