@@ -9,4 +9,5 @@ namespace Stock
 {
     public static class MyConnection
     {
-        public static SqlConnection GetCon
+        public static SqlConnection GetConnection()
+  
