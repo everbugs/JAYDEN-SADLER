@@ -11,4 +11,4 @@ namespace Stock
     {
         public static SqlConnection GetConnection()
         {
-            SqlConnectio
+            SqlConnection con = new 
