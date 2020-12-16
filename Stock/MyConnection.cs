@@ -12,4 +12,4 @@ namespace Stock
         public static SqlConnection GetConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionSt
+            con.ConnectionString = Syste
