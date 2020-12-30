@@ -12,4 +12,4 @@ namespace Stock
         public static SqlConnection GetConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = System.Configuration.Co
+            con.ConnectionString = System.Configuration.ConfigurationMan
