@@ -13,4 +13,4 @@ namespace Stock
         {
             SqlConnection con = new SqlConnection();
             con.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["StockCon"].ConnectionString;
-            re
+            return con;
