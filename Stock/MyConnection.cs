@@ -12,4 +12,5 @@ namespace Stock
         public static SqlConnection GetConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["StockCon"].ConnectionSt
+            con.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["StockCon"].ConnectionString;
+            re
