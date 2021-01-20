@@ -39,3 +39,13 @@
             this.Product_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Product_status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pro_name = new System.Windows.Forms.TextBox();
+            this.add_btn = new System.Windows.Forms.Button();
+            this.reset_btn = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.products_tbl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
