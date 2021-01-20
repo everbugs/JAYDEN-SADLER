@@ -27,3 +27,15 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pro_code = new System.Windows.Forms.TextBox();
+            this.pro_status = new System.Windows.Forms.ComboBox();
+            this.del_btn = new System.Windows.Forms.Button();
+            this.products_tbl = new System.Windows.Forms.DataGridView();
+            this.Product_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Product_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Product_status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label2 = new System.Windows.Forms.Label();
