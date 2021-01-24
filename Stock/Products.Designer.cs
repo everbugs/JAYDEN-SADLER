@@ -63,3 +63,14 @@
             this.pro_code.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pro_code.Location = new System.Drawing.Point(51, 91);
             this.pro_code.Name = "pro_code";
+            this.pro_code.Size = new System.Drawing.Size(219, 30);
+            this.pro_code.TabIndex = 1;
+            // 
+            // pro_status
+            // 
+            this.pro_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pro_status.FormattingEnabled = true;
+            this.pro_status.Items.AddRange(new object[] {
+            "Active",
+            "Deactive"});
+            this.pro_status.Location = new System.Drawing.Point(551, 88);
