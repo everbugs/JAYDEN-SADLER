@@ -90,3 +90,21 @@
             this.del_btn.UseVisualStyleBackColor = true;
             this.del_btn.Click += new System.EventHandler(this.del_btn_Click);
             // 
+            // products_tbl
+            // 
+            this.products_tbl.AllowUserToAddRows = false;
+            this.products_tbl.AllowUserToResizeRows = false;
+            this.products_tbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.products_tbl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Product_Code,
+            this.Product_Name,
+            this.Product_status});
+            this.products_tbl.GridColor = System.Drawing.SystemColors.ButtonFace;
+            this.products_tbl.Location = new System.Drawing.Point(51, 163);
+            this.products_tbl.Margin = new System.Windows.Forms.Padding(0);
+            this.products_tbl.Name = "products_tbl";
+            this.products_tbl.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.products_tbl.RowHeadersVisible = false;
+            this.products_tbl.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.products_tbl.RowTemplate.Height = 20;
+            this.products_tbl.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
