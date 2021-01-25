@@ -108,3 +108,14 @@
             this.products_tbl.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.products_tbl.RowTemplate.Height = 20;
             this.products_tbl.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.products_tbl.Size = new System.Drawing.Size(1043, 375);
+            this.products_tbl.TabIndex = 4;
+            this.products_tbl.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.products_tbl_MouseDoubleClick);
+            // 
+            // Product_Code
+            // 
+            this.Product_Code.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.Product_Code.HeaderText = "Product Code";
+            this.Product_Code.Name = "Product_Code";
+            this.Product_Code.Width = 142;
+            // 
