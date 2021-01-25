@@ -119,3 +119,16 @@
             this.Product_Code.Name = "Product_Code";
             this.Product_Code.Width = 142;
             // 
+            // Product_Name
+            // 
+            this.Product_Name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Product_Name.HeaderText = "Product Name";
+            this.Product_Name.Name = "Product_Name";
+            // 
+            // Product_status
+            // 
+            this.Product_status.HeaderText = "Status";
+            this.Product_status.Name = "Product_status";
+            // 
+            // label2
+            // 
