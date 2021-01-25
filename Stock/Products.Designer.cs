@@ -74,3 +74,19 @@
             "Active",
             "Deactive"});
             this.pro_status.Location = new System.Drawing.Point(551, 88);
+            this.pro_status.Name = "pro_status";
+            this.pro_status.Size = new System.Drawing.Size(219, 33);
+            this.pro_status.TabIndex = 3;
+            // 
+            // del_btn
+            // 
+            this.del_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.del_btn.Location = new System.Drawing.Point(790, 86);
+            this.del_btn.Name = "del_btn";
+            this.del_btn.Padding = new System.Windows.Forms.Padding(2);
+            this.del_btn.Size = new System.Drawing.Size(104, 41);
+            this.del_btn.TabIndex = 5;
+            this.del_btn.Text = "Delete";
+            this.del_btn.UseVisualStyleBackColor = true;
+            this.del_btn.Click += new System.EventHandler(this.del_btn_Click);
+            // 
