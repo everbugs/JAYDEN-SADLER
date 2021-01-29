@@ -150,3 +150,11 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Status";
             // 
+            // pro_name
+            // 
+            this.pro_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pro_name.Location = new System.Drawing.Point(300, 91);
+            this.pro_name.Name = "pro_name";
+            this.pro_name.Size = new System.Drawing.Size(219, 30);
+            this.pro_name.TabIndex = 2;
+            // 
