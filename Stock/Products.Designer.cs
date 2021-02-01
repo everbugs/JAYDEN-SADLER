@@ -158,3 +158,22 @@
             this.pro_name.Size = new System.Drawing.Size(219, 30);
             this.pro_name.TabIndex = 2;
             // 
+            // add_btn
+            // 
+            this.add_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.add_btn.Location = new System.Drawing.Point(900, 86);
+            this.add_btn.Name = "add_btn";
+            this.add_btn.Padding = new System.Windows.Forms.Padding(2);
+            this.add_btn.Size = new System.Drawing.Size(104, 41);
+            this.add_btn.TabIndex = 4;
+            this.add_btn.Text = "Add";
+            this.add_btn.UseVisualStyleBackColor = true;
+            this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
+            // 
+            // reset_btn
+            // 
+            this.reset_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reset_btn.Location = new System.Drawing.Point(1010, 86);
+            this.reset_btn.Name = "reset_btn";
+            this.reset_btn.Padding = new System.Windows.Forms.Padding(2);
+            this.reset_btn.Size = new System.Drawing.Size(84, 41);
