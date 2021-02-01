@@ -177,3 +177,16 @@
             this.reset_btn.Name = "reset_btn";
             this.reset_btn.Padding = new System.Windows.Forms.Padding(2);
             this.reset_btn.Size = new System.Drawing.Size(84, 41);
+            this.reset_btn.TabIndex = 7;
+            this.reset_btn.Text = "Reset";
+            this.reset_btn.UseVisualStyleBackColor = true;
+            this.reset_btn.Click += new System.EventHandler(this.reset_btn_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // Products
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
