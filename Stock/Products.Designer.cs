@@ -219,3 +219,13 @@
         private System.Windows.Forms.Button del_btn;
         private System.Windows.Forms.DataGridView products_tbl;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox pro_name;
+        private System.Windows.Forms.Button add_btn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Product_Code;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Product_Name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Product_status;
+        private System.Windows.Forms.Button reset_btn;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+    }
+}
