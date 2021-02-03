@@ -190,3 +190,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1150, 597);
+            this.Controls.Add(this.reset_btn);
+            this.Controls.Add(this.add_btn);
+            this.Controls.Add(this.pro_name);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.products_tbl);
+            this.Controls.Add(this.del_btn);
+            this.Controls.Add(this.pro_status);
+            this.Controls.Add(this.pro_code);
+            this.Controls.Add(this.label1);
+            this.Name = "Products";
