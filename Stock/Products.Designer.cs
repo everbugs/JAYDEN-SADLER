@@ -202,3 +202,20 @@
             this.Controls.Add(this.pro_code);
             this.Controls.Add(this.label1);
             this.Name = "Products";
+            this.Text = "Products";
+            this.Load += new System.EventHandler(this.Products_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.products_tbl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox pro_code;
+        private System.Windows.Forms.ComboBox pro_status;
+        private System.Windows.Forms.Button del_btn;
+        private System.Windows.Forms.DataGridView products_tbl;
+        private System.Windows.Forms.Label label2;
