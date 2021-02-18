@@ -17,3 +17,16 @@ namespace Stock
         public Products()
         {
             InitializeComponent();
+        }
+
+        private void Products_Load(object sender, EventArgs e)
+        {
+            pro_status.SelectedIndex = 0;
+            loadData();
+        }
+
+        private void add_btn_Click(object sender, EventArgs e)
+        {
+            if (validation())
+            {
+                //Insert Product
