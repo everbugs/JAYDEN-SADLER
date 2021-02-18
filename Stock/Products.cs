@@ -30,3 +30,14 @@ namespace Stock
             if (validation())
             {
                 //Insert Product
+                //SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-BJH69LU\ASHISSQL;Initial Catalog=Stock;Integrated Security=True");
+                SqlConnection con = MyConnection.GetConnection();
+                con.Open();
+                bool status = false;
+                if (pro_status.SelectedIndex == 0)
+                    status = true;
+                else
+                    status = false;
+                string sqlQuery = "";
+                if (isProductExists(con, pro_code.Text))
+                {
