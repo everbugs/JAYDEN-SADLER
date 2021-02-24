@@ -41,3 +41,14 @@ namespace Stock
                 string sqlQuery = "";
                 if (isProductExists(con, pro_code.Text))
                 {
+                    sqlQuery = "UPDATE [tbl_products] SET [product_name] = '" + pro_name.Text + "',[product_status] = '" + status + "' WHERE [product_id] = '" + pro_code.Text + "'";
+                }
+                else
+                {
+                    sqlQuery = "INSERT INTO [dbo].[tbl_products] ([product_id],[product_name],[product_status]) VALUES ('" + pro_code.Text + "','" + pro_name.Text + "','" + status + "')";
+                }
+                SqlCommand cmd = new SqlCommand(sqlQuery, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                // Get Products
+                loadData();
