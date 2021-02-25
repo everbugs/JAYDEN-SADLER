@@ -78,3 +78,19 @@ namespace Stock
                 products_tbl.Rows[n].Cells[0].Value = item["product_id"].ToString();
                 products_tbl.Rows[n].Cells[1].Value = item["product_name"].ToString();
                 if ((bool)item["product_status"])
+                    products_tbl.Rows[n].Cells[2].Value = "Active";
+                else
+                    products_tbl.Rows[n].Cells[2].Value = "Deactive";
+            }
+        }
+
+        private void products_tbl_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            pro_code.Text = products_tbl.SelectedRows[0].Cells[0].Value.ToString();
+            pro_name.Text = products_tbl.SelectedRows[0].Cells[1].Value.ToString();
+            if (products_tbl.SelectedRows[0].Cells[2].Value.ToString() == "Active")
+                pro_status.SelectedIndex = 0;
+            else
+                pro_status.SelectedIndex = 1;
+            add_btn.Text = "Update";
+        }
