@@ -52,3 +52,15 @@ namespace Stock
                 con.Close();
                 // Get Products
                 loadData();
+                resetData(); 
+            }
+        }
+        private bool isProductExists(SqlConnection con, string pro_code)
+        {
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT * FROM [dbo].[tbl_products] WHERE [product_id] = '" + pro_code + "'", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            if (dt.Rows.Count > 0)
+                return true;
+            else
+                return false;
