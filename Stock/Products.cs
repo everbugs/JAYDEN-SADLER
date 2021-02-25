@@ -64,3 +64,17 @@ namespace Stock
                 return true;
             else
                 return false;
+        }
+        public void loadData()
+        {
+            SqlConnection con = MyConnection.GetConnection();
+            SqlDataAdapter sda = new SqlDataAdapter(@"SELECT * FROM [dbo].[tbl_products]", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            products_tbl.Rows.Clear();
+            foreach (DataRow item in dt.Rows)
+            {
+                int n = products_tbl.Rows.Add();
+                products_tbl.Rows[n].Cells[0].Value = item["product_id"].ToString();
+                products_tbl.Rows[n].Cells[1].Value = item["product_name"].ToString();
+                if ((bool)item["product_status"])
