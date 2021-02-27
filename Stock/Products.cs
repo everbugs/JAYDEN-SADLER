@@ -94,3 +94,27 @@ namespace Stock
                 pro_status.SelectedIndex = 1;
             add_btn.Text = "Update";
         }
+
+        private void del_btn_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Are you sure to delete?", "Message", MessageBoxButtons.YesNo);
+            if (dialog == DialogResult.Yes)
+            {
+                if (validation())
+                {
+                    SqlConnection con = MyConnection.GetConnection();
+                    if (isProductExists(con, pro_code.Text))
+                    {
+                        con.Open();
+                        SqlCommand cmd = new SqlCommand("DELETE FROM [tbl_products] WHERE [product_id] = '" + pro_code.Text + "'", con);
+                        cmd.ExecuteNonQuery();
+                        con.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Record Not Found!");
+                    }
+                    loadData();
+                    resetData();
+                } 
+            }
