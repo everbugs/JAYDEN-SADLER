@@ -147,3 +147,15 @@ namespace Stock
             }
             else if (!int.TryParse(pro_code.Text, out num))
             {
+                errorProvider1.Clear();
+                errorProvider1.SetError(pro_code, "Product Code must be numeric.");
+            }
+            else if(string.IsNullOrEmpty(pro_name.Text))
+            {
+                errorProvider1.Clear();
+                errorProvider1.SetError(pro_name, "Product Name Required.");
+            }
+            else if (pro_status.SelectedIndex == -1)
+            {
+                errorProvider1.Clear();
+                errorProvider1.SetError(pro_status, "Select Product Status");
