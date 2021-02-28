@@ -139,3 +139,11 @@ namespace Stock
         {
             bool result = false;
             int num;
+            //bool isNumeric = false;
+            if (string.IsNullOrEmpty(pro_code.Text))
+            {
+                errorProvider1.Clear();
+                errorProvider1.SetError(pro_code, "Product Code Required.");
+            }
+            else if (!int.TryParse(pro_code.Text, out num))
+            {
