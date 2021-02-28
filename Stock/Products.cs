@@ -118,3 +118,24 @@ namespace Stock
                     resetData();
                 } 
             }
+        }
+
+        private void resetData()
+        {
+            pro_code.Clear();
+            pro_name.Clear();
+            pro_status.SelectedIndex = -1;
+            add_btn.Text = "Add";
+            pro_code.Focus();
+            errorProvider1.Clear();
+        }
+
+        private void reset_btn_Click(object sender, EventArgs e)
+        {
+            resetData();
+        }
+
+        private bool validation()
+        {
+            bool result = false;
+            int num;
