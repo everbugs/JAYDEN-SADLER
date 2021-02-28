@@ -159,3 +159,14 @@ namespace Stock
             {
                 errorProvider1.Clear();
                 errorProvider1.SetError(pro_status, "Select Product Status");
+            }
+            else
+            {
+                result = true;
+            }
+            //if (!string.IsNullOrEmpty(pro_code.Text) && !string.IsNullOrEmpty(pro_name.Text) && pro_status.SelectedIndex > -1)
+            //    result = true;
+            return result;
+        }
+    }
+}
