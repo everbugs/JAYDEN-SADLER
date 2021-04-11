@@ -7,4 +7,5 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyTitle("Stock")]
 [assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration(""
+[assembly: AssemblyConfiguration("")]
+[assembly: 
