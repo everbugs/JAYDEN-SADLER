@@ -8,4 +8,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Stock")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP 
+[assembly: AssemblyCompany("HP Inc.")]
+[
