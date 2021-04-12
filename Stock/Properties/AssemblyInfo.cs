@@ -8,4 +8,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Stock")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: Assembl
+[assembly: AssemblyCompany("HP 
