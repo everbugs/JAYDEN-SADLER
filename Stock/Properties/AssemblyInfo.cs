@@ -10,4 +10,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
 [assembly: AssemblyProduct("Stock")]
-[assembly
+[assembly: AssemblyCo
