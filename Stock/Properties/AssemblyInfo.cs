@@ -11,4 +11,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("HP Inc.")]
 [assembly: AssemblyProduct("Stock")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2019")]
-[assembly: AssemblyTr
+[assembly: AssemblyTrademark("")]
