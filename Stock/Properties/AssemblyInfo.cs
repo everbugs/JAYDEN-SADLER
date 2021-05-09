@@ -12,4 +12,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("Stock")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2019")]
 [assembly: AssemblyTrademark("")]
-[assembly: Asse
+[assembly: AssemblyCulture(""
