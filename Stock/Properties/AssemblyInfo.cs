@@ -29,4 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-// You can specify all the values or you can default the Build and Revisio
+// You can specify all the values or you can default the Build and Revision Numbers 
+// by us
