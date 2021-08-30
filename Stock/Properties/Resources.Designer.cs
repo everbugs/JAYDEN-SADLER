@@ -8,4 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Stock.Prope
+namespace Stock.Properties
+{
+
+
+    ///
