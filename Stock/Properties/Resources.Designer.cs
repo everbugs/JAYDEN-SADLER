@@ -12,4 +12,5 @@ namespace Stock.Properties
 {
 
 
-    ///
+    /// <summary>
+  
