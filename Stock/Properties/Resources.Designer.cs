@@ -13,4 +13,4 @@ namespace Stock.Properties
 
 
     /// <summary>
-    ///  
+    ///   A strong
