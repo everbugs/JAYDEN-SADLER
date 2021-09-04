@@ -13,4 +13,4 @@ namespace Stock.Properties
 
 
     /// <summary>
-    ///   A strongly-typed resource class, 
+    ///   A strongly-typed resource class, for lookin
