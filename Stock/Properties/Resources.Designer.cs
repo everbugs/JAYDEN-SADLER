@@ -15,4 +15,4 @@ namespace Stock.Properties
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
-    // This class was 
+    // This class was auto-generated 
