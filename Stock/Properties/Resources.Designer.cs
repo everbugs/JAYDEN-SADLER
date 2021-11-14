@@ -21,4 +21,4 @@ namespace Stock.Properties
     // with the /str option, or rebuild your VS project.
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    [global::System.Runtime.CompilerServices.Com
+    [global::System.Runtime.CompilerServices.CompilerGenerate
