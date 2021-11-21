@@ -25,4 +25,4 @@ namespace Stock.Properties
     internal class Resources
     {
 
-        private static global:
+        private static global::System.Resources.
