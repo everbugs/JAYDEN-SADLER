@@ -25,4 +25,4 @@ namespace Stock.Properties
     internal class Resources
     {
 
-        private 
+        private static global:
