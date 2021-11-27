@@ -25,4 +25,6 @@ namespace Stock.Properties
     internal class Resources
     {
 
-        private static global::System.Resources.ResourceManager resourc
+        private static global::System.Resources.ResourceManager resourceMan;
+
+ 
