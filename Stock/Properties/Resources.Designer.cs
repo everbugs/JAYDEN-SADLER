@@ -27,4 +27,4 @@ namespace Stock.Properties
 
         private static global::System.Resources.ResourceManager resourceMan;
 
-        privat
+        private static
