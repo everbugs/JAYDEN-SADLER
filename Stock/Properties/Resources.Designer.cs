@@ -27,4 +27,6 @@ namespace Stock.Properties
 
         private static global::System.Resources.ResourceManager resourceMan;
 
-        private static global::System.Globalization.CultureInfo resourceCu
+        private static global::System.Globalization.CultureInfo resourceCulture;
+
+       
