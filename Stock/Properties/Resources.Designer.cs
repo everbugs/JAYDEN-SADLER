@@ -29,4 +29,4 @@ namespace Stock.Properties
 
         private static global::System.Globalization.CultureInfo resourceCulture;
 
-        [global::System.Diagnostics.CodeAnalysis.S
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessa
