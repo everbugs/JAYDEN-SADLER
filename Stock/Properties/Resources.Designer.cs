@@ -29,4 +29,4 @@ namespace Stock.Properties
 
         private static global::System.Globalization.CultureInfo resourceCulture;
 
-        [global::System.D
+        [global::System.Diagnostics.Code
