@@ -35,4 +35,4 @@ namespace Stock.Properties
         }
 
         /// <summary>
-        ///   
+        ///   Returns the 
