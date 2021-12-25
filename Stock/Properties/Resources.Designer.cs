@@ -35,4 +35,4 @@ namespace Stock.Properties
         }
 
         /// <summary>
-        ///   Returns the cached ResourceManager instanc
+        ///   Returns the cached ResourceManager instance used by t
