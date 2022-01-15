@@ -41,4 +41,5 @@ namespace Stock.Properties
         internal static global::System.Resources.ResourceManager ResourceManager
         {
             get
-     
+            {
+           
