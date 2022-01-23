@@ -44,3 +44,4 @@ namespace Stock.Properties
             {
                 if ((resourceMan == null))
                 {
+              
