@@ -42,4 +42,5 @@ namespace Stock.Properties
         {
             get
             {
-                if ((resourceMan == 
+                if ((resourceMan == null))
+            
