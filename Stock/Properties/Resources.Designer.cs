@@ -44,4 +44,4 @@ namespace Stock.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Re
+                    global::System.Resources
