@@ -44,4 +44,4 @@ namespace Stock.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Stock.Properties
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Stock.Properties.Resource
