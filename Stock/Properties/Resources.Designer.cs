@@ -45,4 +45,4 @@ namespace Stock.Properties
                 if ((resourceMan == null))
                 {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Stock.Properties.Resources", typeof(Resources).Assembly);
-                    resou
+                    resourceMan = temp;
