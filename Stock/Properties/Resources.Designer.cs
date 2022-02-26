@@ -46,3 +46,4 @@ namespace Stock.Properties
                 {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Stock.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
+           
