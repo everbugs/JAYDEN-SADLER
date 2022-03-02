@@ -48,4 +48,5 @@ namespace Stock.Properties
                     resourceMan = temp;
                 }
                 return resourceMan;
-        
+            }
+       
