@@ -51,4 +51,4 @@ namespace Stock.Properties
             }
         }
 
-      
+        /// <su
