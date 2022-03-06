@@ -52,4 +52,4 @@ namespace Stock.Properties
         }
 
         /// <summary>
-      
+        ///   O
