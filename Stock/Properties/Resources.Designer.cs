@@ -52,4 +52,4 @@ namespace Stock.Properties
         }
 
         /// <summary>
-        ///   Overrides the current thread's CurrentUICultu
+        ///   Overrides the current thread's CurrentUICulture proper
