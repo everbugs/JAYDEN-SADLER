@@ -53,4 +53,5 @@ namespace Stock.Properties
 
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
-        ///   resource lookups using this strongly typed resour
+        ///   resource lookups using this strongly typed resource class.
+    
