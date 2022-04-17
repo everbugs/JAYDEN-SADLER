@@ -60,4 +60,4 @@ namespace Stock.Properties
         {
             get
             {
-             
+                return resourceC
