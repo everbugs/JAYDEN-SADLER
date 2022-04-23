@@ -62,4 +62,5 @@ namespace Stock.Properties
             {
                 return resourceCulture;
             }
-     
+            set
+    
