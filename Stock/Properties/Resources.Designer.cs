@@ -64,4 +64,5 @@ namespace Stock.Properties
             }
             set
             {
-                resourceCulture = v
+                resourceCulture = value;
+         
