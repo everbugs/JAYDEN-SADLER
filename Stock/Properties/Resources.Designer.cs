@@ -64,4 +64,4 @@ namespace Stock.Properties
             }
             set
             {
-      
+                reso
