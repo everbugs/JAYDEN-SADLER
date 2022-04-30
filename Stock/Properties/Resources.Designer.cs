@@ -66,4 +66,6 @@ namespace Stock.Properties
             {
                 resourceCulture = value;
             }
-       
+        }
+    }
+}
