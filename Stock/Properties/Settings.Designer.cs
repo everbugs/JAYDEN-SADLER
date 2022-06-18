@@ -8,4 +8,4 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sto
+namespace Stock.Properties
