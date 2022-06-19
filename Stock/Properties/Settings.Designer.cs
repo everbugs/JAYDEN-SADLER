@@ -12,4 +12,4 @@ namespace Stock.Properties
 {
 
 
-    [glob
+    [global::System.Run
