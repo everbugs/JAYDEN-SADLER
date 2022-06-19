@@ -12,4 +12,4 @@ namespace Stock.Properties
 {
 
 
-    [global::System.Runtime.CompilerS
+    [global::System.Runtime.CompilerServices.Compile
