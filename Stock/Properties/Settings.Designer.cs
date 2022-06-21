@@ -12,4 +12,5 @@ namespace Stock.Properties
 {
 
 
-    [global::System.Runtime.CompilerServices.CompilerGeneratedAttr
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    [
