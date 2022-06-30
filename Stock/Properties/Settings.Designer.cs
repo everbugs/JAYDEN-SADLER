@@ -13,4 +13,4 @@ namespace Stock.Properties
 
 
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDo
+    [global::System.CodeDom.Compil
