@@ -13,4 +13,4 @@ namespace Stock.Properties
 
 
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttrib
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Visua
