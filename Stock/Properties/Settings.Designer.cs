@@ -17,4 +17,4 @@ namespace Stock.Properties
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
     {
 
-        private sta
+        private static Settings d
