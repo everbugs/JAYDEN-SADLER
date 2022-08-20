@@ -21,4 +21,5 @@ namespace Stock.Properties
 
         public static Settings Default
         {
-            g
+            get
+           
