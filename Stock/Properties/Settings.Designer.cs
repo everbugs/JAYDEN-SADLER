@@ -23,4 +23,4 @@ namespace Stock.Properties
         {
             get
             {
-          
+                return defa
