@@ -24,3 +24,4 @@ namespace Stock.Properties
             get
             {
                 return defaultInstance;
+         
