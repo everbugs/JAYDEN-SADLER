@@ -25,4 +25,6 @@ namespace Stock.Properties
             {
                 return defaultInstance;
             }
-     
+        }
+    }
+}
