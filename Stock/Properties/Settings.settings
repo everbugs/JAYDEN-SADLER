@@ -2,4 +2,5 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
   <Profiles>
     <Profile Name="(Default)" />
-  </Profiles
+  </Profiles>
+  <Settings />
