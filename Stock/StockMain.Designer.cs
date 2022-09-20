@@ -47,3 +47,15 @@
             // 
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.productsToolStripMenuItem,
+            this.stockToolStripMenuItem,
+            this.reportToolStripMenuItem});
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
+            this.menuStrip.Size = new System.Drawing.Size(948, 35);
+            this.menuStrip.TabIndex = 0;
+            this.menuStrip.Text = "MenuStrip";
+            // 
+            // productsToolStripMenuItem
+            // 
