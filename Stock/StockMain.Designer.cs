@@ -75,3 +75,27 @@
             this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.productListToolStripMenuItem,
             this.stockListToolStripMenuItem});
+            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(77, 29);
+            this.reportToolStripMenuItem.Text = "Report";
+            // 
+            // productListToolStripMenuItem
+            // 
+            this.productListToolStripMenuItem.Name = "productListToolStripMenuItem";
+            this.productListToolStripMenuItem.Size = new System.Drawing.Size(189, 30);
+            this.productListToolStripMenuItem.Text = "Product List";
+            // 
+            // stockListToolStripMenuItem
+            // 
+            this.stockListToolStripMenuItem.Name = "stockListToolStripMenuItem";
+            this.stockListToolStripMenuItem.Size = new System.Drawing.Size(189, 30);
+            this.stockListToolStripMenuItem.Text = "Stock List";
+            // 
+            // statusStrip
+            // 
+            this.statusStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel});
+            this.statusStrip.Location = new System.Drawing.Point(0, 667);
+            this.statusStrip.Name = "statusStrip";
+            this.statusStrip.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
