@@ -69,3 +69,9 @@
             this.stockToolStripMenuItem.Name = "stockToolStripMenuItem";
             this.stockToolStripMenuItem.Size = new System.Drawing.Size(67, 29);
             this.stockToolStripMenuItem.Text = "Stock";
+            // 
+            // reportToolStripMenuItem
+            // 
+            this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.productListToolStripMenuItem,
+            this.stockListToolStripMenuItem});
