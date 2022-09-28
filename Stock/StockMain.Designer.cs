@@ -114,3 +114,21 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(948, 697);
+            this.Controls.Add(this.statusStrip);
+            this.Controls.Add(this.menuStrip);
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "StockMain";
+            this.Text = "StockMain";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.StockMain_FormClosing);
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
+            this.statusStrip.ResumeLayout(false);
+            this.statusStrip.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+        #endregion
