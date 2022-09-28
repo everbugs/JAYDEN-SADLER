@@ -145,3 +145,5 @@
         private System.Windows.Forms.ToolStripMenuItem stockListToolStripMenuItem;
     }
 }
+
+
