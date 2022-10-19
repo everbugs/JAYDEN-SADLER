@@ -10,4 +10,4 @@ using System.Windows.Forms;
 
 namespace Stock
 {
-    pu
+    public partial class
