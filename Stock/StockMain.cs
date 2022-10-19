@@ -8,4 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namesp
+namespace Stock
+{
+    pu
