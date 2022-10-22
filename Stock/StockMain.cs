@@ -12,3 +12,4 @@ namespace Stock
 {
     public partial class StockMain : Form
     {
+        publ
