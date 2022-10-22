@@ -13,4 +13,5 @@ namespace Stock
     public partial class StockMain : Form
     {
         public StockMain()
-     
+        {
+      
