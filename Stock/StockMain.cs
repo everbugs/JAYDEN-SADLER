@@ -10,4 +10,5 @@ using System.Windows.Forms;
 
 namespace Stock
 {
-    public partial class StockMain :
+    public partial class StockMain : Form
+    {
