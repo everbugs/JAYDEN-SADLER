@@ -14,4 +14,6 @@ namespace Stock
     {
         public StockMain()
         {
-            InitializeComponent()
+            InitializeComponent();
+        }
+   
