@@ -16,4 +16,4 @@ namespace Stock
         {
             InitializeComponent();
         }
-   
+        bool cl
