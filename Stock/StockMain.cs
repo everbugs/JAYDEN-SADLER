@@ -17,4 +17,4 @@ namespace Stock
             InitializeComponent();
         }
         bool close = true;
-        private void StockMain_FormClosin
+        private void StockMain_FormClosing(object send
