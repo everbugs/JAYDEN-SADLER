@@ -19,4 +19,4 @@ namespace Stock
         bool close = true;
         private void StockMain_FormClosing(object sender, FormClosingEventArgs e)
         {
-      
+            if (clos
