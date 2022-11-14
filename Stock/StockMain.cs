@@ -21,4 +21,4 @@ namespace Stock
         {
             if (close)
             {
-                DialogResult d
+                DialogResult dialog = Mes
