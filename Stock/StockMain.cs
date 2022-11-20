@@ -21,4 +21,4 @@ namespace Stock
         {
             if (close)
             {
-                DialogResult dialog = MessageBox.Show(
+                DialogResult dialog = MessageBox.Show("Are you s
