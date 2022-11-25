@@ -21,4 +21,4 @@ namespace Stock
         {
             if (close)
             {
-                DialogResult dialog = MessageBox.Show("Are you sure to Exit?", "Exit", Messag
+                DialogResult dialog = MessageBox.Show("Are you sure to Exit?", "Exit", MessageBoxBut
