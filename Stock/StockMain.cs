@@ -22,4 +22,4 @@ namespace Stock
             if (close)
             {
                 DialogResult dialog = MessageBox.Show("Are you sure to Exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (dialog == 
+                if (dialog == DialogResul
