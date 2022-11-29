@@ -25,3 +25,4 @@ namespace Stock
                 if (dialog == DialogResult.Yes)
                 {
                     close = false;
+       
