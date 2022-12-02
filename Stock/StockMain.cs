@@ -27,4 +27,5 @@ namespace Stock
                     close = false;
                     Application.Exit();
                 }
- 
+                else
+   
