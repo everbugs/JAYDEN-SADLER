@@ -28,4 +28,5 @@ namespace Stock
                     Application.Exit();
                 }
                 else
-                    e.Cancel = 
+                    e.Cancel = true; 
+     
