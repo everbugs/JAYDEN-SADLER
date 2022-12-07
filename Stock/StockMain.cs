@@ -30,4 +30,6 @@ namespace Stock
                 else
                     e.Cancel = true; 
             }
-        
+        }
+
+        pr
