@@ -32,4 +32,4 @@ namespace Stock
             }
         }
 
-        pr
+        private void productsT
