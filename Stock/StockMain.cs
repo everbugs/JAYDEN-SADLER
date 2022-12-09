@@ -32,4 +32,4 @@ namespace Stock
             }
         }
 
-        private void productsT
+        private void productsToolStripMenuIte
