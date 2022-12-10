@@ -32,4 +32,5 @@ namespace Stock
             }
         }
 
-        private void productsToolStripMenuItem_Click(object sender, Even
+        private void productsToolStripMenuItem_Click(object sender, EventArgs e)
+       
