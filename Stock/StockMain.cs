@@ -34,4 +34,5 @@ namespace Stock
 
         private void productsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Products prod = new Products(
+            Products prod = new Products();
+       
