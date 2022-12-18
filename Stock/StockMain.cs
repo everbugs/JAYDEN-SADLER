@@ -36,4 +36,4 @@ namespace Stock
         {
             Products prod = new Products();
             prod.MdiParent = this;
-            prod.StartPositio
+            prod.StartPosition = FormS
