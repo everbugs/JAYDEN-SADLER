@@ -36,4 +36,5 @@ namespace Stock
         {
             Products prod = new Products();
             prod.MdiParent = this;
-            prod.StartPosition = FormStartPosition.CenterScreen
+            prod.StartPosition = FormStartPosition.CenterScreen;
+          
