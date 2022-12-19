@@ -38,4 +38,5 @@ namespace Stock
             prod.MdiParent = this;
             prod.StartPosition = FormStartPosition.CenterScreen;
             prod.Show();
-      
+        }
+    }
