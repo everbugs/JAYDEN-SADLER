@@ -6,4 +6,4 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock", "Stock\Stock.csproj", "{3657FC3C-2E54-4CC5-B763-73C0E6CE280C}"
 EndProject
 Global
-	GlobalSe
+	GlobalSection(S
