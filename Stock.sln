@@ -16,4 +16,5 @@ Global
 		{3657FC3C-2E54-4CC5-B763-73C0E6CE280C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3657FC3C-2E54-4CC5-B763-73C0E6CE280C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = 
+	GlobalSection(SolutionProperties) = preSolution
+		Hi
